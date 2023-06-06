@@ -85,6 +85,7 @@ response, history = model.chat(tokenizer, query=input_text, history=None, max_le
 
 
 * 启动服务   
+
 本项目提供了[soulchat_app.py](./soulchat_app.py)作为SoulChat模型的使用示例，通过以下命令即可开启服务，然后，通过http://<your_ip>:9026访问。
 ```bash
 streamlit run soulchat_app.py --server.port 9026
