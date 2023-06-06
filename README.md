@@ -50,6 +50,7 @@ cd SoulChat
 conda env create -n proactivehealthgpt_py38 --file proactivehealthgpt_py38.yml
 conda activate proactivehealthgpt_py38
 
+pip install cpm_kernels
 pip install torch==1.13.1+cu116 torchvision==0.14.1+cu116 torchaudio==0.13.1 --extra-index-url https://download.pytorch.org/whl/cu116
 ```
 
