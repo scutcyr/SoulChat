@@ -51,6 +51,21 @@ conda activate proactivehealthgpt_py38
 pip install torch==1.13.1+cu116 torchvision==0.14.1+cu116 torchaudio==0.13.1 --extra-index-url https://download.pytorch.org/whl/cu116
 ```
 
+* 启动服务
+本项目提供了[soulchat_app.py](./soulchat_app.py)作为SoulChat模型的使用示例，通过以下命令即可开启服务，然后，通过http://<your_ip>:9026访问。
+```bash
+streamlit run soulchat_app.py --server.port 9026
+```
+特别地，在[soulchat_app.py](./soulchat_app.py)当中，
+可以修改以下代码更换指定的显卡：
+```python
+os.environ['CUDA_VISIBLE_DEVICES'] = '2'
+```
+可以通过更改以下代码指定模型路径为本地路径：
+```python
+model_name_or_path = 'scutcyr/SoulChat'
+```
+
 
 ## 示例
 * 样例1：失恋
