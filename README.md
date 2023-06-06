@@ -125,3 +125,14 @@ model_name_or_path = 'scutcyr/SoulChat'
     <img src="./figure/example_keyan.png" width=600px/>
 </p>
 
+
+## 引用
+```bib
+@misc{chen2023soulchat,
+      title={灵心健康大模型SoulChat：通过长文本咨询指令与多轮共情对话数据集的混合微调，提升大模型的“共情”能力 },
+      author={Yirong Chen, Xiaofen Xing, Zhenyu Wang, Xiangmin Xu},
+      year={2023},
+      url = {https://github.com/scutcyr/SoulChat}
+}
+```
+
