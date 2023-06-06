@@ -63,11 +63,14 @@ model = AutoModel.from_pretrained(model_name_or_path, trust_remote_code=True).ha
 model.to(device)
 tokenizer = AutoTokenizer.from_pretrained(model_name_or_path, trust_remote_code=True)
 
-# 调用模型的chat函数
-i
+# 单轮对话调用模型的chat函数
+user_input = "我失恋了，好难受！"
+input_text = "用户：" + user_input + "\n心理咨询师："
 response, history = model.chat(tokenizer, query=input_text, history=None, max_length=2048, num_beams=1, do_sample=True, top_p=0.75, temperature=0.95, logits_processor=None)
 
 ```
+
+
 
 
 
