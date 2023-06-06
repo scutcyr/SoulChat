@@ -51,6 +51,26 @@ conda activate proactivehealthgpt_py38
 pip install torch==1.13.1+cu116 torchvision==0.14.1+cu116 torchaudio==0.13.1 --extra-index-url https://download.pytorch.org/whl/cu116
 ```
 
+* 在Python当中调用SoulChat模型：
+```python
+import torch
+from transformers import AutoModel, AutoTokenizer
+# GPU设置
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+# 加载模型与tokenizer
+model_name_or_path = 'scutcyr/SoulChat'
+model = AutoModel.from_pretrained(model_name_or_path, trust_remote_code=True).half()
+model.to(device)
+tokenizer = AutoTokenizer.from_pretrained(model_name_or_path, trust_remote_code=True)
+
+# 调用模型的chat函数
+i
+response, history = model.chat(tokenizer, query=input_text, history=None, max_length=2048, num_beams=1, do_sample=True, top_p=0.75, temperature=0.95, logits_processor=None)
+
+```
+
+
+
 * 启动服务
 本项目提供了[soulchat_app.py](./soulchat_app.py)作为SoulChat模型的使用示例，通过以下命令即可开启服务，然后，通过http://<your_ip>:9026访问。
 ```bash
