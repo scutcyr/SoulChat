@@ -43,7 +43,7 @@ cd ~
 git clone https://github.com/scutcyr/SoulChat.git
 ```
 
-* 安装依赖
+* 安装依赖    
 需要注意的是torch的版本需要根据你的服务器实际的cuda版本选择，详情参考[pytorch安装指南](https://pytorch.org/get-started/previous-versions/)
 ```bash
 cd SoulChat
@@ -54,7 +54,7 @@ pip install cpm_kernels
 pip install torch==1.13.1+cu116 torchvision==0.14.1+cu116 torchaudio==0.13.1 --extra-index-url https://download.pytorch.org/whl/cu116
 ```
 
-* 在Python当中调用SoulChat模型：
+* 在Python当中调用SoulChat模型    
 ```python
 import torch
 from transformers import AutoModel, AutoTokenizer
@@ -84,10 +84,7 @@ response, history = model.chat(tokenizer, query=input_text, history=None, max_le
 ```
 
 
-
-
-
-* 启动服务
+* 启动服务   
 本项目提供了[soulchat_app.py](./soulchat_app.py)作为SoulChat模型的使用示例，通过以下命令即可开启服务，然后，通过http://<your_ip>:9026访问。
 ```bash
 streamlit run soulchat_app.py --server.port 9026
