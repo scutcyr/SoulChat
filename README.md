@@ -36,6 +36,26 @@
 
 ## 示例
 * 样例1：失恋
+*
+<p align="center">
+    <img src="./figure/example_shilian.png" width=900px/>
+</p>
+
 * 样例2：宿舍关系
+
+<p align="center">
+    <img src="./figure/example_sushe.png" width=900px/>
+</p>
+
 * 样例3：期末考试
+
+<p align="center">
+    <img src="./figure/example_kaoshi.png" width=900px/>
+</p>
+
 * 样例4：科研压力
+
+<p align="center">
+    <img src="./figure/example_keyan.png" width=900px/>
+</p>
+
