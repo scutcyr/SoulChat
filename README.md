@@ -109,6 +109,8 @@ streamlit run soulchat_app.py --server.port 9026
 ```python
 os.environ['CUDA_VISIBLE_DEVICES'] = '2'
 ```
+**对于Windows单显卡用户，需要修改为：```os.environ['CUDA_VISIBLE_DEVICES'] = '0'```，否则会报错！**
+
 可以通过更改以下代码指定模型路径为本地路径：
 ```python
 model_name_or_path = 'scutcyr/SoulChat'
