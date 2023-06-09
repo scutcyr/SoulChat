@@ -54,6 +54,17 @@ pip install cpm_kernels
 pip install torch==1.13.1+cu116 torchvision==0.14.1+cu116 torchaudio==0.13.1 --extra-index-url https://download.pytorch.org/whl/cu116
 ```
 
+* 【补充】Windows下的用户推荐参考如下流程配置环境
+```bash
+cd BianQue
+conda create -n proactivehealthgpt_py38 python=3.8
+conda activate proactivehealthgpt_py38
+pip install torch==1.13.1+cu116 torchvision==0.14.1+cu116 torchaudio==0.13.1 --extra-index-url https://download.pytorch.org/whl/cu116
+pip install -r requirements.txt
+pip install rouge_chinese nltk jieba datasets
+pip install streamlit
+```
+
 * 在Python当中调用SoulChat模型    
 ```python
 import torch
