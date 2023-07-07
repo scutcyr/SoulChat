@@ -21,6 +21,7 @@
 
 ## 最近更新
 - 👏🏻  2023.07.07: 心理健康大模型灵心（SoulChat）在线内测版本启用，欢迎点击链接使用：[灵心内测版](https://soulchat.iai007.cloud/)。
+- 👏🏻  2023.06.24: 本项目被收录到[中国大模型列表](https://github.com/wgwang/LLMs-In-China)，为国内首个开源的具备共情与倾听能力的心理领域大模型。
 - 👏🏻  2023.06.06: 扁鹊-2.0模型开源，详情见[BianQue-2.0](https://huggingface.co/scutcyr/BianQue-2)。
 - 👏🏻  2023.06.06: 具备共情与倾听能力的灵心健康大模型SoulChat发布，详情见：[灵心健康大模型SoulChat：通过长文本咨询指令与多轮共情对话数据集的混合微调，提升大模型的“共情”能力 ](https://huggingface.co/scutcyr/SoulChat)。
 - 👏🏻  2023.04.22: 基于扁鹊-1.0模型的医疗问答系统Demo，详情访问：[https://huggingface.co/spaces/scutcyr/BianQue](https://huggingface.co/spaces/scutcyr/BianQue)
