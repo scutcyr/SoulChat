@@ -164,8 +164,8 @@ model_name_or_path = 'scutcyr/SoulChat'
 ## 引用
 ```bib
 @misc{chen2023soulchat,
-      title={灵心健康大模型SoulChat：通过长文本咨询指令与多轮共情对话数据集的混合微调，提升大模型的“共情”能力},
-      author={Yirong Chen, Xiaofen Xing, Zhenyu Wang, Xiangmin Xu},
+      title={SoulChat: Improving LLMs' Empathy, Listening, and Comfort Abilities through Fine-tuning with Multi-turn Empathy Conversations},
+      author={Yirong Chen, Xiaofen Xing, Jingkai Lin, Huimin Zheng, Zhenyu Wang, Qi Liu, Xiangmin Xu},
       year={2023},
       month = {6},
       version = {1.0},
