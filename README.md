@@ -163,13 +163,13 @@ model_name_or_path = 'scutcyr/SoulChat'
 
 ## 引用
 ```bib
-@misc{chen2023soulchat,
-      title={SoulChat: Improving LLMs' Empathy, Listening, and Comfort Abilities through Fine-tuning with Multi-turn Empathy Conversations},
-      author={Yirong Chen, Xiaofen Xing, Jingkai Lin, Huimin Zheng, Zhenyu Wang, Qi Liu, Xiangmin Xu},
+      title={SoulChat: Improving LLMs' Empathy, Listening, and Comfort Abilities through Fine-tuning with Multi-turn Empathy Conversations}, 
+      author={Yirong Chen and Xiaofen Xing and Jingkai Lin and Huimin Zheng and Zhenyu Wang and Qi Liu and Xiangmin Xu},
       year={2023},
-      month = {6},
-      version = {1.0},
-      url = {https://github.com/scutcyr/SoulChat}
+      eprint={2311.00273},
+      archivePrefix={arXiv},
+      url={https://arxiv.org/abs/2311.00273},
+      primaryClass={cs.CL}
 }
 ```
 
