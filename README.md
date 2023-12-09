@@ -163,13 +163,27 @@ model_name_or_path = 'scutcyr/SoulChat'
 
 ## 引用
 ```bib
-      title={SoulChat: Improving LLMs' Empathy, Listening, and Comfort Abilities through Fine-tuning with Multi-turn Empathy Conversations}, 
-      author={Yirong Chen and Xiaofen Xing and Jingkai Lin and Huimin Zheng and Zhenyu Wang and Qi Liu and Xiangmin Xu},
-      year={2023},
-      eprint={2311.00273},
-      archivePrefix={arXiv},
-      url={https://arxiv.org/abs/2311.00273},
-      primaryClass={cs.CL}
+      @inproceedings{chen-etal-2023-soulchat,
+    title = "{S}oul{C}hat: Improving {LLM}s{'} Empathy, Listening, and Comfort Abilities through Fine-tuning with Multi-turn Empathy Conversations",
+    author = "Chen, Yirong  and
+      Xing, Xiaofen  and
+      Lin, Jingkai  and
+      Zheng, Huimin  and
+      Wang, Zhenyu  and
+      Liu, Qi  and
+      Xu, Xiangmin",
+    editor = "Bouamor, Houda  and
+      Pino, Juan  and
+      Bali, Kalika",
+    booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2023",
+    month = dec,
+    year = "2023",
+    address = "Singapore",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.findings-emnlp.83",
+    pages = "1170--1183",
+    abstract = "Large language models (LLMs) have been widely applied in various fields due to their excellent capability for memorizing knowledge and chain of thought (CoT). When these language models are applied in the field of psychological counseling, they often rush to provide universal advice. However, when users seek psychological support, they need to gain empathy, trust, understanding and comfort, rather than just reasonable advice. To this end, we constructed a multi-turn empathetic conversation dataset of more than 2 million samples, in which the input is the multi-turn conversation context, and the target is empathetic responses that cover expressions such as questioning, comfort, recognition, listening, trust, emotional support, etc. Experiments have shown that the empathy ability of LLMs can be significantly enhanced when finetuning by using multi-turn dialogue history and responses that are closer to the expression of a psychological consultant.",
+}
 }
 ```
 
