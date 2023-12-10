@@ -165,7 +165,7 @@ model_name_or_path = 'scutcyr/SoulChat'
 
 ## 引用
 ```bib
-      @inproceedings{chen-etal-2023-soulchat,
+@inproceedings{chen-etal-2023-soulchat,
     title = "{S}oul{C}hat: Improving {LLM}s{'} Empathy, Listening, and Comfort Abilities through Fine-tuning with Multi-turn Empathy Conversations",
     author = "Chen, Yirong  and
       Xing, Xiaofen  and
