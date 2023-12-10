@@ -1,6 +1,6 @@
 # [灵心（SoulChat）]((https://github.com/scutcyr/SoulChat))
 <p align="center">
-    <img src="./ProactiveHealthGPT.png" width=900px/>
+    <img src="./figure/soulchat_poster.png" width=900px/>
 </p>
 <p align="center">
     <a href="./LICENSE"><img src="https://img.shields.io/badge/license-Apache%202-red.svg"></a>
