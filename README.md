@@ -189,3 +189,6 @@ model_name_or_path = 'scutcyr/SoulChat'
 }
 ```
 
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=scutcyr/SoulChat&type=Date)](https://star-history.com/#scutcyr/SoulChat&Date)
