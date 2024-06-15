@@ -20,7 +20,7 @@
 
 
 ## 最近更新
-- 👏🏻  2023.12.09：我们的数据集即将发布！！！
+- 👏🏻  2023.12.09：SoulChatCorpus数据集的开源版本发布，详情见[https://www.modelscope.cn/datasets/YIRONGCHEN/SoulChatCorpus](https://www.modelscope.cn/datasets/YIRONGCHEN/SoulChatCorpus)，特别地，我们过滤掉了约9万个对话样本（由于隐私风险、安全问题、政治风险、低质量样本等），最终保留258354个多轮对话，总共1517344轮。
 - 👏🏻  2023.12.07：我们的论文，收录在Findings of EMNLP 2023，详见[SoulChat: Improving LLMs’ Empathy, Listening, and Comfort Abilities through Fine-tuning with Multi-turn Empathy Conversations](https://aclanthology.org/2023.findings-emnlp.83/)
 - 👏🏻  2023.07.07: 心理健康大模型灵心（SoulChat）在线内测版本启用，欢迎点击链接使用：[灵心内测版](https://soulchat.iai007.cloud/)。
 - 👏🏻  2023.06.24: 本项目被收录到[中国大模型列表](https://github.com/wgwang/LLMs-In-China)，为国内首个开源的具备共情与倾听能力的心理领域大模型。
